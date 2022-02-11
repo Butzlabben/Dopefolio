@@ -36,3 +36,9 @@ const headerLogoConatiner = document.querySelector('.header__logo-container')
 headerLogoConatiner.addEventListener('click', () => {
   location.href = 'index.html'
 })
+
+function submitEmail() {
+  let subject = encodeURIComponent(document.querySelector('.subject_form').value.trim())
+  let body = encodeURIComponent(document.querySelector('.body_form').value.trim())
+  location.href = "mailto:info@naegele.dev?subject=" + subject + "&body=" + body;
+}
