@@ -40,5 +40,5 @@ headerLogoConatiner.addEventListener('click', () => {
 function submitEmail() {
   let subject = encodeURIComponent(document.querySelector('.subject_form').value.trim())
   let body = encodeURIComponent(document.querySelector('.body_form').value.trim())
-  location.href = "mailto:info@naegele.dev?subject=" + subject + "&body=" + body;
+  location.href = "mailto:daniel@naegele.dev?subject=" + subject + "&body=" + body;
 }

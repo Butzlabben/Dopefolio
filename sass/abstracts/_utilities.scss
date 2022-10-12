@@ -112,6 +112,10 @@
     font-size: 1.6rem;
   }
 
+  &--mrg {
+    margin-bottom: 12px;
+  }
+
   &--theme {
     background: $themeClrPrimary;
     color: #fff;
